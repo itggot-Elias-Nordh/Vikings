@@ -1,0 +1,125 @@
+html {
+  margin: 0px;
+  font-family: "trajan-color", serif;
+  font-style: normal;
+  font-weight: 400;
+  width: 100vw;
+}
+
+body {
+  margin: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-transparent {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 110px;
+  z-index: 1;
+  justify-content: space-around;
+}
+
+.header-transparent > a > h2 {
+  margin-top: 40px;
+  margin-right: 80px;
+}
+
+.header-transparent > a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-transparent > a > img {
+  width: 93px;
+}
+
+h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.jarallax {
+    background-size: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 790px;
+    width: 100vw;
+    z-index: 2;
+}
+
+.black-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  width: 100vw;
+  z-index: 2;
+}
+
+.black-box > img {
+  width: 80%;
+}
+
+.black-box > h2{
+  color: white;
+  font-size: 60px;
+  margin: 0px;
+  font-family: '1 Vivaldi  Bold', sans-serif;
+}
+
+.black-box > h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 42px;
+  margin-bottom: 10px;
+  padding: 20%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-top: white solid;
+  border-bottom: white solid;
+}
+
+.warp {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  margin-top: 40px;
+  -webkit-box-shadow: 0px 16px 53px 30px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 16px 53px 30px rgba(0,0,0,1);
+  box-shadow: 0px 16px 53px 30px rgba(0,0,0,1);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 40px 0px 40px;
+}
+
+.box > img {
+  border: #95989A solid;
+  border-width: 5px;
+  border-radius: 10px;
+  width: 235px;
+  height: 235px;
+}
+
+.background {
+  background-image: url("../img/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100vw;
+}
