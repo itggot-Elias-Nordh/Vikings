@@ -43,6 +43,7 @@ a {
 
 .header > a > img {
   width: 93px;
+  border: none;
 }
 
 h2 {
@@ -71,13 +72,14 @@ h2 {
 .black-box > img {
   width: 80%;
   margin-bottom: 20px;
+  border: none;
 }
 
 .black-box > h2{
   color: white;
   font-size: 60px;
   margin: 0px;
-  font-family: '1 Vivaldi  Bold', sans-serif;
+  font-family: '1 Vivaldi  Bold', serif;
 }
 
 .black-box > h1 {
@@ -87,7 +89,7 @@ h2 {
   font-size: 50px;
   margin-top: 42px;
   margin-bottom: 10px;
-  width: 80vw;
+  width: 90vw;
   padding-top: 30px;
   padding-bottom: 20px;
   border-top: white solid;
@@ -114,9 +116,6 @@ h2 {
 }
 
 .box > img {
-  border: #95989A solid;
-  border-width: 5px;
-  border-radius: 10px;
   width: 235px;
   height: 235px;
 }
@@ -141,7 +140,7 @@ h2 {
 
 }
 
-.blure > p {
+p {
   color: #95989A;
   font-family: sans-serif;
 }
@@ -187,11 +186,14 @@ h2 {
 }
 
 .box2 > img {
+  width: 400px;
+  height: 235px;
+}
+
+img {
   border: #95989A solid;
   border-width: 5px;
   border-radius: 10px;
-  width: 400px;
-  height: 235px;
 }
 
 .blue {
@@ -200,4 +202,35 @@ h2 {
 
 .remove {
   display: none;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 20px;
+}
+
+.top > img {
+  width: 300px;
+  height: 430px;
+  margin: 10px 40px 10px 100px;
+}
+
+.top > p {
+  margin: 30px 100px 30px 0px;
+}
+
+.middel > p {
+  margin: 30px 100px 30px 100px;
+}
+
+.bottom > img {
+  height: 400px;
+  margin: 30px 100px 10px 40px;
+}
+
+.bottom > p {
+  margin: 30px 0px 30px 100px;
 }
