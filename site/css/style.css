@@ -163,6 +163,41 @@ h2 {
   margin-top: 10px;
 }
 
+.season1 {
+
+}
+
+.season2 {
+
+}
+
+.season3 {
+
+}
+
+.season4 {
+
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 40px 0px 40px;
+}
+
+.box2 > img {
+  border: #95989A solid;
+  border-width: 5px;
+  border-radius: 10px;
+  width: 400px;
+  height: 235px;
+}
+
 .blue {
   color: #2DABFF;
+}
+
+.bar {
+  display: none;
 }
