@@ -10,6 +10,7 @@ body {
   margin: 0px;
   width: 100vw;
   overflow-x: hidden;
+  text-align: center;
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
   align-items: center;
 }
 
-.header-transparent {
+.header {
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -29,17 +30,18 @@ body {
   justify-content: space-around;
 }
 
-.header-transparent > a > h2 {
+.header > a > h2 {
   margin-top: 40px;
-  margin-right: 80px;
+  margin-right: 40px;
 }
 
-.header-transparent > a {
+a {
   text-decoration: none;
   color: white;
+  font-size: 30px;
 }
 
-.header-transparent > a > img {
+.header > a > img {
   width: 93px;
 }
 
@@ -68,6 +70,7 @@ h2 {
 
 .black-box > img {
   width: 80%;
+  margin-bottom: 20px;
 }
 
 .black-box > h2{
@@ -78,11 +81,13 @@ h2 {
 }
 
 .black-box > h1 {
+  display: flex;
+  justify-content: center;
   color: white;
   font-size: 50px;
   margin-top: 42px;
   margin-bottom: 10px;
-  padding: 20%;
+  width: 80vw;
   padding-top: 30px;
   padding-bottom: 20px;
   border-top: white solid;
@@ -139,4 +144,25 @@ h2 {
 .blure > p {
   color: #95989A;
   font-family: sans-serif;
+}
+
+.seasons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 90vw;
+  background-color: #292828;
+  border: #95989A solid;
+  border-width: 5px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.seasons > a {
+  margin-top: 10px;
+}
+
+.blue {
+  color: #2DABFF;
 }
