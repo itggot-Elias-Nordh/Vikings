@@ -97,14 +97,22 @@ h2 {
 
 .warp {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
   background-color: black;
+  width: 100vw;
   margin-top: 40px;
+  padding: 0px -60px 0px -60px;
   -webkit-box-shadow: 0px 16px 53px 30px rgba(0,0,0,1);
   -moz-box-shadow: 0px 16px 53px 30px rgba(0,0,0,1);
   box-shadow: 0px 16px 53px 30px rgba(0,0,0,1);
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1600px;
 }
 
 .box {
