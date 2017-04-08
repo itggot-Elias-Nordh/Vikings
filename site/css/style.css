@@ -48,6 +48,7 @@ p {
   position: fixed;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   background: rgba(0, 0, 0, 0.7);
   width: 100vw;
   z-index: 1;
@@ -101,7 +102,7 @@ a {
   font-family: '1 Vivaldi  Bold', serif;
 }
 
-.warp {
+.wrap {
   display: flex;
   justify-content: center;
   background-color: black;
@@ -256,7 +257,7 @@ img {
   }
 
   h1 {
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 40px;
   }
 
@@ -264,16 +265,20 @@ img {
     font-size: 20px;
   }
 
-  .black-box > h2 {
-    font-size: 45px;
-  }
-
   .header > a > img {
     width: 75px;
   }
 
+  .black-box > h2 {
+    font-size: 45px;
+  }
+
   p {
     font-size: 15px;
+  }
+
+  .blure > p {
+    font-size: 20px;
   }
 }
 
@@ -286,4 +291,42 @@ img {
     font-size: 20px;
   }
 
+  .header > a > h2 {
+    font-size: 15px;
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+
+  .header > a > img {
+    width: 50px;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .blure > p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header > a > h2 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .header > a > img {
+    width: 40px;
+  }
+
+  .blure > p {
+    font-size: 15px;
+  }
 }
