@@ -7,7 +7,7 @@
     <link rel="icon" href="./img/logo.png">
   </head>
   <body>
-    <div class="container">
+    <div class="container-background">
       <div class="header">
         <a href="index.html"><img src="./img/logo.png" alt=""></a>
         <a href="episodes.html"><h2>Episodes</h2></a>
@@ -15,14 +15,63 @@
         <a href="lore.html"><h2>Lore</h2></a>
         <a href="chat_room.html"><h2>Chat room</h2></a>
       </div>
+      <div class="chat-room">
+        <div class="rooms">
+          <a onclick="chat('.spoilers')" href="javaScript:void(0);">*Spoilers*</a>
+          <a onclick="chat('.rangnars')" href="javaScript:void(0);">Rangnars Story</a>
+          <a onclick="chat('.season4')" href="javaScript:void(0);">Season 4</a>
+          <a onclick="chat('.harbard')" href="javaScript:void(0);">Is Harbard A God?</a>
+          <a onclick="chat('.season5')" href="javaScript:void(0);">Season 5?</a>
+          <a onclick="chat('.club')" href="javaScript:void(0);">Vikings Fan Club</a>
+          <a onclick="chat('.random1')" href="javaScript:void(0);">Random 1</a>
+          <a onclick="chat('.random2')" href="javaScript:void(0);">Random 2</a>
+          <a onclick="chat('.random3')" href="javaScript:void(0);">Random 3</a>
+          <a onclick="chat('.random4')" href="javaScript:void(0);">Random 4</a>
+          <a onclick="chat('.random5')" href="javaScript:void(0);">Random 5</a>
+          <a onclick="chat('.random6')" href="javaScript:void(0);">Random 6</a>
+          <a onclick="chat('.random7')" href="javaScript:void(0);">Random 7</a>
+          <a onclick="chat('.random8')" href="javaScript:void(0);">Random 8</a>
+          <a onclick="chat('.random9')" href="javaScript:void(0);">Random 9</a>
+        </div>
+        <div class="chat">
+          <div class="chat-window">
+            <h2 class="text-box spoilers remove">*Spoilers*</h2>
+            <h2 class="text-box rangnars remove">Rangnars Story</h2>
+            <h2 class="text-box season4 remove">Season 4</h2>
+            <h2 class="text-box harbard remove">Is Harbard A God?</h2>
+            <h2 class="text-box season5 remove">Season 5?</h2>
+            <h2 class="text-box club remove">Vikings Fan Club</h2>
+            <h2 class="text-box random1 remove">Random 1</h2>
+            <h2 class="text-box random2 remove">Random 2</h2>
+            <h2 class="text-box random3 remove">Random 3</h2>
+            <h2 class="text-box random4 remove">Random 4</h2>
+            <h2 class="text-box random5 remove">Random 5</h2>
+            <h2 class="text-box random6 remove">Random 6</h2>
+            <h2 class="text-box random7 remove">Random 7</h2>
+            <h2 class="text-box random8 remove">Random 8</h2>
+            <h2 class="text-box random9 remove">Random 9</h2>
+          </div>
+          <div class="input-bar">
+            <input type="text" name="" value="">
+            <a href="chat_room.html"><button name="submit" type="submit">Send</button></a>
+          </div>
+        </div>
+      </div>
       <div class="blure">
         <p>© 2016 MGM Holdings, Inc. All Rights Reserved</p>
       </div>
     </div>
+    <script src="./js/jquery-3.2.0.js"></script>
     <script src="https://use.typekit.net/juy7qmh.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src='./js/jarallax.min.js'></script>
-    <script> src="./js/main.js"</script>
+    <script src="./js/main.js"></script>
+    <script>
+      $("a").click(function () {
+          $("a").removeClass("blue2");
+          $(this).addClass("blue2");
+      });
+    </script>
   </body>
 </html>
